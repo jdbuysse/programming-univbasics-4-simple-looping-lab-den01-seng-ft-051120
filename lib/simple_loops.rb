@@ -2,4 +2,6 @@
 def loop_message_five_times(str)
   i = 5
   while i > 0
-    puts 
+    puts str
+  end
+end
