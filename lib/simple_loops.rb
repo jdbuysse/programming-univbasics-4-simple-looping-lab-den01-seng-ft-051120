@@ -25,11 +25,12 @@ end
 def return_string_array(array)
   i = 0 
   str = ''
+  narray = []
   while i < array.length
-    array[i].to_s
+    narray.push(array[i].to_s)
     i += 1
   end
-  array
+  narray
 end
   
     
